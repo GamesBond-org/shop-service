@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: shop-service
-        image: gamesbond-shop-service:v1.0.0
+        image: maheshnandi/gamesbond-shop-service:v1.0.0
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 4006
