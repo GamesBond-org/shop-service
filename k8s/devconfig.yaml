@@ -4,4 +4,5 @@ metadata:
   name: shop-service-devconfig
 data:
   PORT: "4006"
-  MONGO_URL: "mongodb://mongo:27017"
+  MONGO_URL: "mongodb://admin:password123@mongo-service.dev.svc.cluster.local:27017/shop_db?authSource=admin"
+  REDIS_URL: "redis://redis-service.dev.svc.cluster.local:6379"
